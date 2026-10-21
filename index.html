@@ -113,8 +113,9 @@ section{padding-block:80px}
 .contact small{color:#c9d7ff;text-align:center}
 @media (max-width:860px){.join .wrap{grid-template-columns:1fr}}
 
-.team{margin:40px 0 0;position:relative}
+.team{margin:40px auto 0;position:relative;width:fit-content;max-width:100%}
 .team{background:var(--pitch);border:1px solid var(--line)}
+.team figcaption{width:0;min-width:100%;box-sizing:border-box}
 .team img{display:block;width:auto;height:auto;max-width:100%;max-height:85vh;margin:0 auto}
 .team figcaption{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;justify-content:space-between;padding:14px 18px;background:var(--panel);border-left:3px solid var(--blue);color:var(--muted);font-size:.92rem;text-transform:uppercase;letter-spacing:.1em}
 .team figcaption span{font-family:var(--display);font-weight:700;font-size:1.5rem;color:var(--ink);letter-spacing:.02em}
